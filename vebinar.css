@@ -1,0 +1,90 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  min-height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 60%;
+}
+form {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.form-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.todo-container {
+  display: flex;
+  margin: 1rem;
+}
+.todolist {
+  width: 70%;
+  font-size: 1.5rem;
+}
+.todolist li {
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  border: none;
+  outline: none;
+  background-color: #fcf8f8;
+  padding: 0.5rem;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.todo {
+  background-color: #fcf8f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.todo p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
+}
+.todo span {
+  flex:1;
+}
+.selects {
+  margin-left: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+select {
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+}

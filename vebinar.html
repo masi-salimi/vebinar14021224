@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="vebinar.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="container">
+      <h2>Notes</h2>
+      <div class="form-container">
+        <form class="todo-form">
+          <input class="todo-input" type="text" name="" id="" />          
+        </form>
+     
+      <div class="selects">
+        <div class="select">
+        <select name="sorts" class="sorttodos">
+          <option class="op" value="earliest" selected>asc</option>
+          <option class="op" value="latest">des</option>
+        </select>
+        </div>
+
+        <div class="select">
+          <select name="todos" class="filter-todos">
+            <option class="op" value="all" selected>all</option>
+            <option class="op" value="completed">completed</option>
+            <option class="op" value="uncompleted">uncompleted</option>
+          </select>
+        </div>
+      </div>
+    </div>
+     
+      <div class="todo-container">
+        <ul class="todolist"></ul>
+      </div>
+    </section>
+    <script src="vebinar.js"></script>
+  </body>
+</html>
